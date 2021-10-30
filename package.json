@@ -1,0 +1,8 @@
+{
+  "name": "modernJavaScript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sil-co/JavaScriptAndReact.git",
+  "author": "sil-co <79182349+sil-co@users.noreply.github.com>",
+  "license": "MIT"
+}
