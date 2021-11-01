@@ -60,13 +60,6 @@ const createTodoList = (text) => {
       const deleteTarget = backButton.parentNode.parentNode;
       document.querySelector("#complete-list").removeChild(deleteTarget);
 
-      // todo-listへ追加
-      // document.querySelector("#todo-list").appendChild(deleteTarget);
-      // const completeButton = deleteTarget.childNodes[0].childNodes[1].innerText = "完了"
-      // const deleteButton = document.createElement("button");
-      // deleteButton.innerText = "削除";
-      // deleteTarget.childNodes[0].appendChild(deleteButton);
-
       // テキスト取得
       const text = backButton.parentNode.firstElementChild.innerText;
       createTodoList(text);
